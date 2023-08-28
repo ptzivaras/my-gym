@@ -1,5 +1,16 @@
 import React from "react";
 import "./Home.css";
+import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+
+const mapContainerStyle = {
+  width: "100%",
+  height: "400px",
+};
+
+const center = {
+  lat: 37.7749, // Latitude of your gym's location
+  lng: -122.4194, // Longitude of your gym's location
+};
 
 const membershipOptions = [
   { label: "1 Month", price: "$50" },
@@ -224,10 +235,26 @@ function Home() {
         </div>
       </div>
 
-      {/* Links to facebook and location of Gym */}
+      {/* Location Map */}
+      <div className="location-map-container">
+        <h2>Our Location</h2>
+        <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY_HERE">
+          <GoogleMap
+            mapContainerStyle={mapContainerStyle}
+            center={center}
+            zoom={14}
+          >
+            <Marker position={center} />
+          </GoogleMap>
+        </LoadScript>
+      </div>
 
     </div>
   );
 }
 
-export default Home;
+// export default GoogleApiWrapper({
+//   apiKey: "YOUR_GOOGLE_MAPS_API_KEY_HERE",
+// })(Home);
+
+ export default Home;
