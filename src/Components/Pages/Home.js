@@ -1,17 +1,13 @@
 import React from "react";
 import "./Home.css";
-import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import "leaflet/dist/leaflet.css"; // Import Leaflet CSS
+import MapComponent from "./MapComponent";
+import Membership from "./Membership";
+import Schedule from "./Schedule";
 
-const mapContainerStyle = {
-  width: "100%",
-  height: "400px",
-};
-
-const center = {
-  lat: 37.7749, // Latitude of your gym's location
-  lng: -122.4194, // Longitude of your gym's location
-};
-
+//Home Features Pricing Contact About
+//Home About Classes Shecules COntact Sign Up
+//Location Links
 const membershipOptions = [
   { label: "1 Month", price: "$50" },
   { label: "3 Months", price: "$120" },
@@ -107,19 +103,6 @@ function Home() {
         <h3 className="header-subtitle">If It Was Easy, Everyone Would Do It</h3>
       </div>
 
-    
-      {/* Video */}
-      {/* { <video autoPlay loop muted className="background-video">
-        <source src="https://www.youtube.com/watch?v=Yko3GMseY40" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video> } */}
-
-      {/* <div className="video-container">
-      <source src="https://media4.giphy.com/media/dzaUX7CAG0Ihi/giphy.gif?cid=ecf05e47jggnxbg4p1yelu2zwixjeerci330x2ci0wiu557i&ep=v1_gifs_search&rid=giphy.gif&ct=g"
-       type="video/mp4" />
-        Your browser does not support the video tag.
-      </div> */}
-
       {/* GIF */}
       { <div className="top-image-container">
         <img
@@ -167,14 +150,7 @@ function Home() {
         ))}
       </div>
       
-      {/* YouTube Video */}
-      {/* { <div className="youtube-container">
-        <iframe
-          src="https://www.youtube.com/watch?v=dWpujp-h2M8"
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
-      </div> } */}
+      
 
       {/* Meet Our Trainers */}
       <div className="meet-trainers-container">
@@ -202,8 +178,9 @@ function Home() {
           </div>
         ))}
       </div>
+      
       {/* Buy Programs */}
-      <div className="membership-options-container">
+      {/* <div className="membership-options-container">
         <h2 className="section-title">Choose Your Membership</h2>
         <div className="options-grid">
           {membershipOptions.map((option, index) => (
@@ -214,9 +191,9 @@ function Home() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
-      <div className="fitness-programs-container">
+      {/* <div className="fitness-programs-container">
         <h2 className="section-title">Choose Your Fitness Program</h2>
         <div className="programs-grid">
           {fitnessPrograms.map((program, index) => (
@@ -233,28 +210,27 @@ function Home() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
-      {/* Location Map */}
-      <div className="location-map-container">
-        <h2>Our Location</h2>
-        <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY_HERE">
-          <GoogleMap
-            mapContainerStyle={mapContainerStyle}
-            center={center}
-            zoom={14}
-          >
-            <Marker position={center} />
-          </GoogleMap>
-        </LoadScript>
-      </div>
+    <div className="App">
+      <Membership />
+    </div>
+
+    <div className="App">
+      <h1>Gym Location</h1>
+      <MapComponent />
+    </div>
+
+    <Schedule />
+
+    <footer className="footer">
+        <p>&copy; 2023 Your Gym Name. All rights reserved.</p>
+    </footer>
 
     </div>
   );
 }
 
-// export default GoogleApiWrapper({
-//   apiKey: "YOUR_GOOGLE_MAPS_API_KEY_HERE",
-// })(Home);
+
 
  export default Home;
