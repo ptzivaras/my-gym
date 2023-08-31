@@ -4,10 +4,19 @@ import "leaflet/dist/leaflet.css"; // Import Leaflet CSS
 import MapComponent from "./MapComponent";
 import Membership from "./Membership";
 import Schedule from "./Schedule";
+import AboutPage from "./About";
+import Footer from "./Footer";
 
-//Home Features Pricing Contact About
-//Home About Classes Shecules COntact Sign Up
-//Location Links
+/*                  >>>>>>>>>>>>>> TODO <<<<<<<<<<<<<
+
+1: Header/ Hero + Router me eikona kali oxi video etc kai koubakia
+(Home, Classes, Schedule, Trainers, About, Contact, Location) + Register
+2: Pricing/Membership
+3:Footer (Links )
+4: Schedule(enas pinakas me koutakia me aspro border kai transparent na vlepeis background)
+   panw vlepeis meres, aristera wres, mesa vlepeis trainer+class
+
+*/
 const membershipOptions = [
   { label: "1 Month", price: "$50" },
   { label: "3 Months", price: "$120" },
@@ -112,26 +121,9 @@ function Home() {
         />
       </div> }
 
-  {/* About Page */}
-  <div className="horizontal-section">
-        <div className="column column-left">
-          <h2>Make Every Breath Count</h2>
-        </div>
-        <div className="column column-right">
-          <p>
-          Top Wolf Fitness Club combines a holistic approach to exercise programs with the highest standards of hygiene and safety, in a space with a special design that turns daily training into an exclusive experience.
-
-          </p>
-          <p>
-          Our purpose is to redefine the concept of the gym. In addition to the ideal selection of programs and advanced equipment, we have paid special attention to the design and functionality of the gyms, the relaxation areas as well as the integration of new technologies in the infrastructure as well as in the training process.
-
-          </p>
-          <div className="button-container">
-            <button className="cta-button">Learn More</button>
-          </div>
-        </div>
-      </div>
-
+    <div className="App">
+      <AboutPage />
+    </div>
 
       {/* Grid of cards */}
       <div className="card-grid container">
@@ -179,39 +171,6 @@ function Home() {
         ))}
       </div>
       
-      {/* Buy Programs */}
-      {/* <div className="membership-options-container">
-        <h2 className="section-title">Choose Your Membership</h2>
-        <div className="options-grid">
-          {membershipOptions.map((option, index) => (
-            <div className="option-card" key={index}>
-              <h3>{option.label}</h3>
-              <p>{option.price}</p>
-              <button className="cta-button">Select</button>
-            </div>
-          ))}
-        </div>
-      </div> */}
-
-      {/* <div className="fitness-programs-container">
-        <h2 className="section-title">Choose Your Fitness Program</h2>
-        <div className="programs-grid">
-          {fitnessPrograms.map((program, index) => (
-            <div className="program-card" key={index}>
-              <h3>{program}</h3>
-              <div className="duration-options">
-                {membershipOptions.map((option, index) => (
-                  <button className="duration-button" key={index}>
-                    {option.label}
-                  </button>
-                ))}
-              </div>
-              <button className="cta-button">Buy Now</button>
-            </div>
-          ))}
-        </div>
-      </div> */}
-
     <div className="App">
       <Membership />
     </div>
@@ -222,10 +181,6 @@ function Home() {
     </div>
 
     <Schedule />
-
-    <footer className="footer">
-        <p>&copy; 2023 Your Gym Name. All rights reserved.</p>
-    </footer>
 
     </div>
   );
