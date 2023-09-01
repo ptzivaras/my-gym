@@ -5,7 +5,8 @@ import MapComponent from "./MapComponent";
 import Membership from "./Membership";
 import Schedule from "./Schedule";
 import AboutPage from "./About";
-import Footer from "./Footer";
+import Classes from "./Classes";
+import Trainers from "./Trainers";
 
 /*                  >>>>>>>>>>>>>> TODO <<<<<<<<<<<<<
 
@@ -121,41 +122,35 @@ function Home() {
         />
       </div> }
 
-    <div className="App">
-      <AboutPage />
-    </div>
-
-      {/* Grid of cards */}
-      <div className="card-grid container">
-        {cardData.map((card, index) => (
-          <div className="card" key={index}>
-            <div className="img-container">
-              <img className="card-img-top" src={card.image} alt={`Image for ${card.title}`} />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">{card.title}</h5>
-              <a href={card.link} className="btn btn-primary">
-                Learn More
-              </a>
-            </div>
-          </div>
-        ))}
+      {/* About Page */}
+      <div className="App">
+        <AboutPage />
       </div>
-      
-      
+
+      {/* Text */}
+      <div className="header">
+        <h1 className="header-title">Visit Our Gym</h1>
+        <h3 className="header-subtitle">We don't give promises. We give results.</h3>
+      </div>
+
+      {/* Classes Cards */}
+      <Classes cardData={cardData} />
+
 
       {/* Meet Our Trainers */}
-      <div className="meet-trainers-container">
+      {/* <div className="meet-trainers-container">
         <h2 className="meet-trainers-title">Meet Our Trainers</h2>
         <p className="meet-trainers-description">
           Our team of dedicated trainers is here to help you achieve your fitness goals. 
           With years of experience and expertise in various disciplines, our trainers are committed to providing
           personalized guidance and support on your fitness journey.
         </p>
-      </div>
+      </div> */}
 
       {/* Trainers Cards */}
-      <div className="card-grid container">
+      <Trainers trainerData={trainerCardData} />
+
+      {/* <div className="card-grid container">
         {trainerCardData.map((card, index) => (
           <div className="card" key={index}>
             <div className="img-container">
@@ -169,19 +164,21 @@ function Home() {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
       
     <div className="App">
       <Membership />
     </div>
 
+    
+
+    <Schedule />
+
     <div className="App">
       <h1>Gym Location</h1>
       <MapComponent />
     </div>
-
-    <Schedule />
-
+    
     </div>
   );
 }

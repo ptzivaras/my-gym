@@ -1,13 +1,4 @@
-const fitnessPrograms = [
-    "Muay Thai",
-    "TRX",
-    "Cross Fit",
-    "MMA",
-    "Kick Box",
-    "Personal Training",
-    "Wight Loss",
-    "Work Out"
-  ];
+import React from "react";
 
   const cardData = [
     {
@@ -54,9 +45,29 @@ const fitnessPrograms = [
   ];
 
 
-  function Home() {
+  // function Home() {
+  //   return (
+  //       <div className="card-grid container">
+  //       {cardData.map((card, index) => (
+  //         <div className="card" key={index}>
+  //           <div className="img-container">
+  //             <img className="card-img-top" src={card.image} alt={`Image for ${card.title}`} />
+  //           </div>
+  //           <div className="card-body">
+  //             <h5 className="card-title">{card.title}</h5>
+  //             <a href={card.link} className="btn btn-primary">
+  //               Learn More
+  //             </a>
+  //           </div>
+  //         </div>
+  //       ))}
+  //     </div>
+  //   );
+  // }
+
+  const Classes= ({ cardData }) => {
     return (
-        <div className="card-grid container">
+      <div className="card-grid container">
         {cardData.map((card, index) => (
           <div className="card" key={index}>
             <div className="img-container">
@@ -72,4 +83,6 @@ const fitnessPrograms = [
         ))}
       </div>
     );
-  }
+  };
+  
+  export default Classes;

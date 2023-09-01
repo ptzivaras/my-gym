@@ -1,0 +1,34 @@
+.schedule {
+  padding: 20px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 1fr repeat(7, 2fr); /* 1 column for time slots + 7 columns for days */
+  grid-gap: 1px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.schedule-grid-day-header,
+.schedule-grid-time-slot,
+.schedule-grid-cell {
+  border: 1px solid white;
+  padding: 2px;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(133, 133, 134);
+  font-size: 18px;
+  font-style: italic;
+}
+
+.schedule-grid-time-slot {
+  background-color: transparent;
+  /* font-weight: bold; */
+}
+
+.class-info,
+.trainer-info {
+  margin-top: 5px;
+  font-size: 14px;
+}
