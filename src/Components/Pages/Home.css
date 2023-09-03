@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
   }
   
   .top-image-container {
@@ -78,8 +77,8 @@
 .horizontal-section {
   display: flex;
   margin-top: 40px; 
-  padding: 5px;
-  height: 430px;
+  background-color: #1f1e1e;
+  padding: 45px;
 }
 
 .column {
@@ -89,26 +88,24 @@
 .column-left {
   flex: 1;
   max-width: 30%;
-  background-color: #1f1e1e;
 }
 
 .column-right {
   flex: 2;
   max-width: 70%;
   padding-left: 20px;
-  background-color: #1f1e1e;
- 
-  
 }
 
 .column-right p {
   font-size: 20px; /* Adjust as needed */
   line-height: 1.5;
+  text-align: left;
 }
 
 .column-left h2 {
   font-size: 42px; /* Adjust as needed */
   line-height: 1.5;
+  
 }
 
 /* Trainers */

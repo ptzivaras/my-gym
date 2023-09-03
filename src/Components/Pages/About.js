@@ -13,8 +13,10 @@ const AboutPage = () => {
         <p>
           Our purpose is to redefine the concept of the gym. In addition to the ideal selection of programs and advanced equipment, we have paid special attention to the design and functionality of the gyms, the relaxation areas as well as the integration of new technologies in the infrastructure as well as in the training process.
         </p>
-        <div className="button-container">
-          <button className="cta-button">Learn More</button>
+        <div style={{ textAlign:'left' }}>
+          <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
+                Learn More
+          </a>        
         </div>
       </div>
     </div>

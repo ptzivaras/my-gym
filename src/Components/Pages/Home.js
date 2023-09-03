@@ -113,17 +113,10 @@ function Home() {
         <h3 className="header-subtitle">If It Was Easy, Everyone Would Do It</h3>
       </div>
 
-      {/* GIF */}
-      { <div className="top-image-container">
-        <img
-          className="top-image"
-          src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGk3bmpuYm1vZzF5ZTI1NW5nam9nZnlmbDhudmdudDdlcm8xYzNoaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UOA7c30OGV7jgBye3U/giphy.gif"
-          alt="Looping GIF"
-        />
-      </div> }
+      
 
       {/* About Page */}
-      <div className="App">
+      <div>
         <AboutPage />
       </div>
 
