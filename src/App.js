@@ -55,26 +55,36 @@
 // export default App;
 
 //--------------------- router 6
-import React from 'react';
-import { Link, Route, Outlet } from 'react-router-dom';
-import Home from './Components/Pages/Home';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
+import './App.css';
 import NavBar from './Components/NavBar';
-import Classes from './Components/Pages/ClassesPage';
-import TrainerPage from './Components/Pages/TrainerPage';
-import PricePage from './Components/Pages/PricePage';
-import AboutPage from './Components/Pages/AboutPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './Components/HomePage';
+import AboutPage from './Components/AboutPage';
+
 
 function App() {
   return (
     <div className="App">
-      <main>
-        <NavBar />
-        <Header />
-        <Outlet />
-        <Footer />
-      </main>
+      <BrowserRouter>
+        <main>
+          <NavBar />
+
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+
+            {/* <Route path="/user/:userId" element={<UserPage />} />
+
+            <Route path="/dashboard" element={<DashboardLayout />}>
+              <Route index element={<DashboardHome />} />
+              <Route path="profile" element={<DashboardProfile />} />
+              <Route path="settings" element={<DashboardSettings />} />
+            </Route>
+
+            <Route path="*" element={<NotFoundPage />} />           */}
+          </Routes>
+        </main>
+      </BrowserRouter>
     </div>
   );
 }
