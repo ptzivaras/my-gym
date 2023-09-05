@@ -8,7 +8,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
-import Classes from './Components/Pages/ClassesPage'; // Your Classes component
+import ClassesPage from './Components/Pages/ClassesPage'; // Your Classes component
 import TrainerPage from './Components/Pages/TrainerPage'; // Your Trainers component
 import PricePage from './Components/Pages/PricePage'; // Your Price component
 import AboutPage from './Components/Pages/AboutPage'; // Your About component
@@ -37,7 +37,7 @@ function App() {
           <Header />
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/classes" component={Classes} />
+            <Route path="/classes" component={ClassesPage} />
             <Route path="/trainers" component={TrainerPage} />
             <Route path="/price" component={PricePage} />
             <Route path="/about" component={AboutPage} />

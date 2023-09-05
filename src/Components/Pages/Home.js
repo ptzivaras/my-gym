@@ -4,9 +4,9 @@ import "leaflet/dist/leaflet.css"; // Import Leaflet CSS
 import MapComponent from "./MapComponent";
 import Membership from "./Membership";
 import Schedule from "./Schedule";
-import AboutPage from "./About";
 import Classes from "./Classes";
 import Trainers from "./Trainers";
+import About from "./About" ;
 
 /*                  >>>>>>>>>>>>>> TODO <<<<<<<<<<<<<
 
@@ -117,7 +117,7 @@ function Home() {
 
       {/* About Page */}
       <div>
-        <AboutPage />
+        <About />
       </div>
 
       {/* Text */}
