@@ -97,10 +97,11 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 export default function Navigation() {
   return (
-    <div>
+    <div className="navbar">
       <Link to="/" className='text-bold fs-5'>Home</Link>
       <Link to="/classes" className='text-bold fs-5'>Classes</Link>
       <Link to="/trainers" className='text-bold fs-5'>Trainers</Link>

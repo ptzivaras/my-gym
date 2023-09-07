@@ -1,11 +1,14 @@
 import React from 'react';
+import Home from './Pages/Home';
+import Header from './Header';
 
 // Define a functional component
 function HomePage() {
   return (
     <div>
-      <h1>Home</h1>
-      <p>This is a simple React component.</p>
+      <Header/>
+      <h1>Home Page</h1>
+      
     </div>
   );
 }
