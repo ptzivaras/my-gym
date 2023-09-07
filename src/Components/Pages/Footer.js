@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -11,7 +12,7 @@ const Footer = () => {
           <i className="fab fa-instagram"></i>
         </a>
       </div>
-      <p>&copy; {new Date().getFullYear()} Top Wolf Fitness Club</p>
+      <p>&copy; {new Date().getFullYear()} Top Gym Fitness Club</p>
     </footer>
   );
 };

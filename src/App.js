@@ -7,6 +7,8 @@ import AboutPage from './Components/AboutPage';
 import TrainerPage from './Components/TrainerPage';
 import ClassesPage from './Components/ClassesPage';
 import PricePage from './Components/PricePage';
+import Footer from './Components/Footer';
+import './Components/Footer.css';
 
 function App() {
   return (
@@ -23,6 +25,10 @@ function App() {
           </Routes>
         </main>
       </BrowserRouter>
+      <div>
+      <Footer/>
+      </div>
+      
     </div>
   );
 }

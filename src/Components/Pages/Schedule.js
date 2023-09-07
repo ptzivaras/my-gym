@@ -16,9 +16,9 @@ const Schedule = () => {
     <div className="schedule">
 
         <div className="header">
-          <h1 className="header-title">Classes Schedule</h1>
+          <h1 className="header-title">Gym Classes Schedule</h1>
           <h3 className="header-subtitle">
-            This does not affect classic WorkOut. 
+            Please be informed about your Class.  
           </h3>
         </div>
 

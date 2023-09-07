@@ -169,7 +169,7 @@ function Home() {
 
     <div className="App">
       <h1>Gym Location</h1>
-      <MapComponent />
+      {/* <MapComponent /> */}
     </div>
     
     </div>
