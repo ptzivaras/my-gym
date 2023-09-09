@@ -1,4 +1,5 @@
 import React from "react";
+import './Membership.css';
 
 const Membership = () => {
   const membershipOptions = [

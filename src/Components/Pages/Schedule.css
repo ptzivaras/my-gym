@@ -6,7 +6,6 @@
   display: grid;
   grid-template-columns: 1fr repeat(7, 2fr); /* 1 column for time slots + 7 columns for days */
   grid-gap: 0px;
-  border: 2px solid white;
   background-color: transparent;
   
 }
@@ -17,14 +16,14 @@
   border: 1px solid white;
   padding: 2px;
   text-align: center;
-  background-color: transparent;
+  background-color: whitesmoke;
   color: rgb(133, 133, 134);
   font-size: 18px;
   font-style: italic;
 }
 
 .schedule-grid-time-slot {
-  background-color: transparent;
+  background-color: whitesmoke;
   /* font-weight: bold; */
 }
 
@@ -32,4 +31,5 @@
 .trainer-info {
   margin-top: 5px;
   font-size: 14px;
+  
 }
