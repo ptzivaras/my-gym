@@ -5,9 +5,10 @@
 .schedule-grid {
   display: grid;
   grid-template-columns: 1fr repeat(7, 2fr); /* 1 column for time slots + 7 columns for days */
-  grid-gap: 1px;
-  border: 1px solid white;
+  grid-gap: 0px;
+  border: 2px solid white;
   background-color: transparent;
+  
 }
 
 .schedule-grid-day-header,

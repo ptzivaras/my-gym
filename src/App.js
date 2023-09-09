@@ -4,11 +4,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import HomePage from './Components/HomePage';
 import AboutPage from './Components/AboutPage';
-import TrainerPage from './Components/TrainerPage';
+import TrainerPage from './Components/Pages/Trainers/TrainerPage';
 import ClassesPage from './Components/ClassesPage';
 import PricePage from './Components/PricePage';
-import Footer from './Components/Footer';
-import './Components/Footer.css';
+import Footer from './Components/Share/Footer/Footer';
+import './Components/Share/Footer/Footer.css';
 
 function App() {
   return (

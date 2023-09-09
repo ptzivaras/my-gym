@@ -1,12 +1,13 @@
 /* Apply styles to the navigation bar */
 .navbar {
-    background-color: transparent; /* Set a transparent background */
+    background-color: rgba(0, 0, 0, 0.8); /* Set a transparent background */
     border-bottom: 2px solid transparent; /* Add a white border */
     position: fixed; /* Fixed position to stay at the top */
     top: 0;
     left: 0;
     width: 100%; /* Full width */
     z-index: 2; /* Ensure it's above other content */
+    text-align: center;
   }
   
   /* Style the navigation links */

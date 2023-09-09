@@ -1,0 +1,33 @@
+.horizontal-section {
+    display: flex;
+    margin-top: 40px; 
+    background-color: #1f1e1e;
+    padding: 45px;
+  }
+  
+  .column {
+    padding: 5px;
+  }
+  
+  .column-left {
+    flex: 1;
+    max-width: 30%;
+  }
+  
+  .column-right {
+    flex: 2;
+    max-width: 70%;
+    padding-left: 20px;
+  }
+  
+  .column-right p {
+    font-size: 20px; /* Adjust as needed */
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .column-left h2 {
+    font-size: 42px; /* Adjust as needed */
+    line-height: 1.5;
+  }
+  

@@ -1,7 +1,7 @@
 // import React from 'react';
 import React, { useState } from 'react';
 import MemberPage from './MemberPage';
-import TrainerPage from './TrainerPage';
+import TrainerPage from '../Pages/Trainers/TrainerPage';
 
 
 const AdminPage = () => {
