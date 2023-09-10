@@ -1,0 +1,78 @@
+/* GymSchedule.css */
+
+.gym-schedule {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    
+   
+  }
+  
+  .day-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .day-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .day-buttons button.selected {
+    background-color: #2563eb;
+    color: white;
+  }
+  
+  .schedule-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .table-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow for multiple rows */
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .table-row.header {
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: #2563eb;
+  }
+  
+  .table-cell {
+    flex-basis: 30%; /* Adjust as needed */
+    padding: 5px;
+    box-sizing: border-box; /* Prevent extra width due to padding */
+  }
+  
+  /* Style for class, time, and trainer */
+  .class, .time, .trainer {
+    font-size: 14px;
+    color: white;
+  }
+  
+  /* Style for the time */
+  .time {
+    font-size: 12px;
+    color: white;
+  }
+  
+  /* Style for selected day button */
+  .selected {
+    background-color: #2563eb;
+    color: rgb(0, 0, 0);
+  }
+  
