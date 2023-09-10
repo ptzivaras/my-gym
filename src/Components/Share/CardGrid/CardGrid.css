@@ -11,6 +11,11 @@
     text-align: center;
   }
   
+  .grid-title {
+    color: white;
+    text-align: center;
+    margin: 25px;
+  }
   .card {
     flex: 0 0 calc(25% - 20px); /* 4 cards in a row */
     text-align: center;

@@ -3,7 +3,7 @@ import "./Program.css";
 
 const Classes= ({ cardData }) => {
   return (
-    <div class="grid-container">
+    <div className="grid-container">
       {cardData.map((card, index) => (
         <div className="card grid-item" key={index}>
           <img className="card-img" src={card.image} alt={`Image for ${card.title}`} />

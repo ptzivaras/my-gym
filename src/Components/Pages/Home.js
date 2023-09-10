@@ -1,7 +1,7 @@
 import React from "react";
 // import "./Home.css";
 import "leaflet/dist/leaflet.css"; // Import Leaflet CSS
-import MapComponent from "./MapComponent";
+// import MapComponent from "./MapComponent";
 import Membership from "./Membership";
 import Schedule from "./Schedule";
 import Classes from "./Program/Program";

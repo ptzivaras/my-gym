@@ -3,12 +3,12 @@ import React from 'react';
 import Home from './Pages/Home';
 import Header from './Header';
 import AboutMessage from './Share/TextMessages/Message01';
-import Program from "./Pages/Program/Program";
+// import Program from "./Pages/Program/Program";
 import Trainers from './Pages/Trainers';
 import Membership from './Pages/Membership';
 import Schedule from './Pages/Schedule';
-import MapComponent from './Pages/MapComponent';
-import showCards from './Share/CardList/CardList';
+ import MapComponent from './Pages/MapComponent';
+import CardGrid from './Share/CardGrid/CardGrid';
 
 const programData = [
   {
@@ -93,13 +93,12 @@ function HomePage() {
       <AboutMessage></AboutMessage>
 
       {/* Text: Available Classes of Gym */}
-      <div>
-      <h2>Classes Offered</h2>
-      <p>Explore our fitness classes and schedules.</p>
-      </div>
+      {/* <div> */}
 
       {/* CardList with Gym-Programs */}
-      <Program
+      <CardGrid
+        title="Classes Offered"
+        description="Explore our fitness classes and schedules."
         cardData={programData}
       />
 
@@ -113,7 +112,7 @@ function HomePage() {
         </h3>
       </div>
 
-      <Program
+      <CardGrid
         cardData={trainerCardData}
       />
       

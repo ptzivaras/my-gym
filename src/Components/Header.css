@@ -71,15 +71,20 @@ h4 {
 
 .header-content {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
   height: 90vh;
   width: 100%;
+  position: relative;
 }
 
 .header-wrapper {
-  background: red;
-  padding: 75px 25px;
+  background: rgba(0, 0, 0, 0.50);
+  padding: 75px 50px;
 
   display: flex;
   flex-direction: column;
