@@ -4,7 +4,6 @@ import Home from './Pages/Home';
 import Header from './Header';
 import AboutMessage from './Share/TextMessages/Message01';
 import Trainers from './Pages/Trainers';
- import MapComponent from './Pages/MapComponent';
 
 
 
@@ -37,6 +36,8 @@ function HomePage() {
     <div>
       <Header/>
 
+      {/* TODO: 3 white boxes under the header like in sample */}
+
       <div className="header">
         <h2 className="header-title">Change Your Body, Change Your Mindset</h2>
         <h3 className="header-subtitle">If It Was Easy, Everyone Would Do It</h3>
@@ -55,18 +56,17 @@ function HomePage() {
         </h3>
       </div>
 
+      {/* TODO: make a text look good click somewhere and go to classes*/}
 
-      {/* Text: Display Map of Gym */}
-      <div className="header">
-        <h2 className="header-title">Visit Our Gym</h2>
-        <h3 className="header-subtitle">We don't give promises. We give results.</h3>
-      </div>
 
-      {/* TODO: Location of Gym using Leaflet on Google Maps */}
-      <div >
-        {/* <MapComponent /> */}
-      </div>
+      {/* TODO: Testimonials */}
 
+
+      {/* TODO: Image Gallery of Gym */}
+
+      {/*Newsletter Signup*/}
+
+      {/* ΒΜΙ calculator  */}
 
     </div>
   );
