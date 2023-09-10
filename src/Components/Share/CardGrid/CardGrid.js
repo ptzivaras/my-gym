@@ -4,10 +4,10 @@ import "./CardGrid.css";
 const CardGrid= ({ title, description, cardData }) => {
   return (
     <div>
-       {/* <GridHeader /> */}
-
-                  <h2 className="grid-title">{ title }</h2>
-                    <p>{ description }</p>
+       
+        {/* TODO: make 2 components for the 2 below */}
+        <h2 className="grid-title">{ title }</h2>
+        <p className="grid-Description">{ description }</p>
 
       <div className="grid-container">
         {cardData.map((card, index) => (

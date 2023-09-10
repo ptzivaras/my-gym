@@ -1,13 +1,12 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Three columns of equal width */
-    grid-gap: 20px; /* Gap between grid items */
+    grid-gap: 0px; /* Gap between grid items */
   }
   
   /* Style for grid items */
   .grid-item {
-  
-    padding: 20px;
+    padding: 0px;
     text-align: center;
   }
   
@@ -16,6 +15,12 @@
     text-align: center;
     margin: 25px;
   }
+
+  .grid-Description{
+    color: white;
+    text-align: center;
+  }
+
   .card {
     flex: 0 0 calc(25% - 20px); /* 4 cards in a row */
     text-align: center;
