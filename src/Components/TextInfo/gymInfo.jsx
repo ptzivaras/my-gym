@@ -8,6 +8,7 @@ const gymInfo = () => {
         <div className="box-icon">
           <i className="fa fa-clock" id="animated-icon"></i>
         </div>
+        <h3>Progression</h3>
         <p className="box-text">
           Our team of experts will work with you to create a customized plan
           that helps you achieve success one step at a time.
@@ -18,6 +19,7 @@ const gymInfo = () => {
         <div className="box-icon">
           <img src="icon2.png" alt="Icon 2" />
         </div>
+        <h3>WorkOut</h3>
         <p className="box-text">
         With a variety of workouts to choose from, you ll have everything you need to get into the best shape of your life.
         </p>
@@ -27,6 +29,7 @@ const gymInfo = () => {
         <div className="box-icon">
           <img src="icon3.png" alt="Icon 3" />
         </div>
+        <h3>Nutritions</h3>
         <p className="box-text">
         Our team will work with you to create a personalized meal plan that helps you reach your specific health goals.
         </p>

@@ -5,7 +5,7 @@ import Header from './Header';
 import AboutMessage from './Share/TextMessages/Message01';
 // import Trainers from './Pages/Trainers';
 import CardRow from './TextInfo/gymInfo';
-
+import WhatWeOffer from './ProgramsMessage/WhatWeOffer';
 
 
 // Define a functional component
@@ -17,12 +17,9 @@ function HomePage() {
       {/* 3 CardLike boxes displaying some info under Header */}
       <CardRow/>
 
-      {/* TODO: 3 white boxes under the header like in sample */}
-      <div className="header">
-        <h2 className="header-title">Change Your Body, Change Your Mindset</h2>
-        <h3 className="header-subtitle">If It Was Easy, Everyone Would Do It</h3>
-      </div>
-      
+      {/* Message with button to Classes-Programs */}
+      <WhatWeOffer/>   
+
       {/* TODO: make this look good */}
       <AboutMessage></AboutMessage>
 
