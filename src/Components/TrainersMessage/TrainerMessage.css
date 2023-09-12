@@ -1,0 +1,53 @@
+.custom1-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .custom1-image {
+    flex: 1;
+    display: flex; /* Add this to remove space between image and content */
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+  }
+  
+  .custom1-image-content {
+    max-width: 100%;
+    max-height: 100%; /* Maintain image aspect ratio */
+  }
+  
+  .custom1-content {
+    flex: 1;
+    padding: 20px; /* Optional padding for spacing */
+    background-color: #bdb9b9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  .custom1-title{
+    color: #a71616;
+  }
+  
+ 
+
+  .custom1-button {
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 13px;
+    background-color: #5b5e65;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .custom1-button:hover {
+    background-color: #a9aebb;
+  }
+  
+ 

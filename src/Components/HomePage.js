@@ -6,6 +6,7 @@ import AboutMessage from './Share/TextMessages/Message01';
 // import Trainers from './Pages/Trainers';
 import CardRow from './TextInfo/gymInfo';
 import WhatWeOffer from './ProgramsMessage/WhatWeOffer';
+import TrainerMessage from './TrainersMessage/TrainerMessage';
 
 
 // Define a functional component
@@ -32,6 +33,8 @@ function HomePage() {
           to providing personalized guidance and support on your fitness journey.
         </h3>
       </div>
+
+      <TrainerMessage/>
 
       {/* TODO: make a text look good click somewhere and go to classes*/}
 
