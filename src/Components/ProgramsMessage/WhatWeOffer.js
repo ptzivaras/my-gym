@@ -14,6 +14,7 @@ const CustomWhatWeOffer = () => {
         <div className="custom-offer-item">
           <h3 className="custom-item-title">Professional Trainers</h3>
           <i className="fas fa-check custom-item-icon"></i>
+          <i class="fa-solid fa-dumbbell"></i>
         </div>
         <div className="custom-offer-item">
           <h3 className="custom-item-title">Modern Equipment</h3>

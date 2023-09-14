@@ -14,9 +14,9 @@
 
 .box {
   flex: 1;
-  max-width: 300px;
+  max-width: 400px;
   background-color: #f0f0f0;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
   padding-top: 70px;
   padding-left: 20px;
   padding-right: 20px;
@@ -39,6 +39,7 @@
   font-size: 14px;
   color: #333;
   margin-top: 10px;
+  text-align: left;
 }
 
 /* Keyframes and animation for icon */

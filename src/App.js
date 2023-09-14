@@ -7,8 +7,8 @@ import AboutPage from './Components/AboutPage';
 import TrainerPage from './Components/Pages/Trainers/TrainerPage';
 import ClassesPage from './Components/ClassesPage';
 import PricePage from './Components/PricePage';
-import Footer from './Components/Share/Footer/Footer';
-import './Components/Share/Footer/Footer.css';
+import Footer from './Components/Footer/Footer';
+import './Components/Footer/Footer.css';
 
 function App() {
   return (

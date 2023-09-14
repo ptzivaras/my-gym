@@ -11,13 +11,13 @@
 }
 
 body {
-  background-color: rgb(53, 44, 70);
+  background-color: rgb(211, 211, 211);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .bg {
-  background-color: rgb(174, 174, 174);
+  background-color: rgb(211, 211, 211);
 }
 

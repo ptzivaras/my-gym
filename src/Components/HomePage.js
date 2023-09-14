@@ -7,7 +7,7 @@ import AboutMessage from './Share/TextMessages/Message01';
 import CardRow from './TextInfo/gymInfo';
 import WhatWeOffer from './ProgramsMessage/WhatWeOffer';
 import TrainerMessage from './TrainersMessage/TrainerMessage';
-
+import Testimonials from  './Testimonials/Testimonials';
 
 // Define a functional component
 function HomePage() {
@@ -35,6 +35,9 @@ function HomePage() {
       </div>
 
       <TrainerMessage/>
+
+      <Testimonials/> 
+
 
       {/* TODO: make a text look good click somewhere and go to classes*/}
 
