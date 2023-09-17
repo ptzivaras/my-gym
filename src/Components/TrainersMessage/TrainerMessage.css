@@ -1,11 +1,12 @@
 .custom1-container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+  display: flex;
+    /*
+    justify-content: center; 
+    align-items: center;
     margin-left: 450px;
     margin-right: 450px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 40px; */
   }
   
   .custom1-image {

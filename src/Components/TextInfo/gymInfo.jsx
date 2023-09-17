@@ -1,23 +1,26 @@
 import React from "react";
 import "./gymInfo.css"; // You can create a CSS file for styling
+import HistoryIcon from '@mui/icons-material/History';
+import FitnessCenterSharpIcon from '@mui/icons-material/FitnessCenterSharp';
+import LocalDiningSharpIcon from '@mui/icons-material/LocalDiningSharp';
 
 const gymInfo = () => {
   return (
     <div className="box-row">
+
       <div className="box">
         <div className="box-icon">
-          <i className="fa fa-clock" id="animated-icon"></i>
+          <HistoryIcon style={{ fontSize: 70, color: "red" }} />
         </div>
-        <h3>Progression</h3>
+        <h3 className="box-title">Progression</h3>
         <p className="box-text">
-          Our team of experts will work with you to create a customized plan
-          that helps you achieve success one step at a time.
+        Our team of experts will work with you to create a customized plan that helps you achieve success one step at a time.
         </p>
       </div>
 
       <div className="box">
         <div className="box-icon">
-          <img src="icon2.png" alt="Icon 2" />
+        <FitnessCenterSharpIcon fontSize="large" color="secondary" />
         </div>
         <h3>WorkOut</h3>
         <p className="box-text">
@@ -27,7 +30,7 @@ const gymInfo = () => {
 
       <div className="box">
         <div className="box-icon">
-          <img src="icon3.png" alt="Icon 3" />
+        <LocalDiningSharpIcon fontSize="large" color="secondary" />
         </div>
         <h3>Nutritions</h3>
         <p className="box-text">

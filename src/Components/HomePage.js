@@ -5,9 +5,10 @@ import Header from './Header';
 import AboutMessage from './Share/TextMessages/Message01';
 // import Trainers from './Pages/Trainers';
 import CardRow from './TextInfo/gymInfo';
-import WhatWeOffer from './ProgramsMessage/WhatWeOffer';
 import TrainerMessage from './TrainersMessage/TrainerMessage';
 import Testimonials from  './Testimonials/Testimonials';
+import TextImageSplitter from './TextImageSplitter/TextImageSplitter';
+import ClassMessage from './ClassMessage/ClassMessage';
 
 // Define a functional component
 function HomePage() {
@@ -18,8 +19,13 @@ function HomePage() {
       {/* 3 CardLike boxes displaying some info under Header */}
       <CardRow/>
 
-      {/* Message with button to Classes-Programs */}
-      <WhatWeOffer/>   
+      {/* Split Panel*/}
+      <TextImageSplitter
+        leftContent={<ClassMessage />}
+        rightContent={<img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Your Image" />}
+      />
+
+
 
       {/* TODO: make this look good */}
       <AboutMessage></AboutMessage>

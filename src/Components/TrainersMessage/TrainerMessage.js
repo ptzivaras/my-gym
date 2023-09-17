@@ -6,6 +6,7 @@ const TrainerMessage = () => {
     <div className="custom1-container">
       <div className="custom1-image">
         <img
+          height="500px"
           src="https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTk1MTQyMTYwMTQyNTc1MzMw/best-online-personal-trainers_hero.png"
           alt="Image Description"
           className="custom1-image-content"
