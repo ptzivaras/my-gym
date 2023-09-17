@@ -1,7 +1,7 @@
 .horizontal-section {
     display: flex;
     margin-top: 40px; 
-    background-color: #1f1e1e;
+    background-color: #433f3f;
     padding: 45px;
   }
   
@@ -24,10 +24,13 @@
     font-size: 20px; /* Adjust as needed */
     line-height: 1.5;
     text-align: left;
+    color: whitesmoke;
+    margin-bottom: 20px;
   }
   
   .column-left h2 {
     font-size: 42px; /* Adjust as needed */
     line-height: 1.5;
+    color: whitesmoke;
   }
   
