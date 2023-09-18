@@ -10,9 +10,9 @@ const gymInfo = () => {
 
       <div className="box">
         <div className="box-icon">
-          <HistoryIcon style={{ fontSize: 70, color: "red" }} />
+          <HistoryIcon fontSize="large" color="secondary" />
         </div>
-        <h3 className="box-title">Progression</h3>
+        <h3 className="box-title">PROGRESSION</h3>
         <p className="box-text">
         Our team of experts will work with you to create a customized plan that helps you achieve success one step at a time.
         </p>
@@ -20,9 +20,9 @@ const gymInfo = () => {
 
       <div className="box">
         <div className="box-icon">
-        <FitnessCenterSharpIcon fontSize="large" color="secondary" />
+          <FitnessCenterSharpIcon fontSize="large" color="secondary" />
         </div>
-        <h3>WorkOut</h3>
+        <h3 className="box-title">WORKOUT</h3>
         <p className="box-text">
         With a variety of workouts to choose from, you ll have everything you need to get into the best shape of your life.
         </p>
@@ -30,9 +30,9 @@ const gymInfo = () => {
 
       <div className="box">
         <div className="box-icon">
-        <LocalDiningSharpIcon fontSize="large" color="secondary" />
+          <LocalDiningSharpIcon fontSize="large" color="secondary" />
         </div>
-        <h3>Nutritions</h3>
+        <h3 className="box-title">NUTRITIONS</h3>
         <p className="box-text">
         Our team will work with you to create a personalized meal plan that helps you reach your specific health goals.
         </p>

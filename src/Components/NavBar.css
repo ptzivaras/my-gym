@@ -1,6 +1,6 @@
 /* Apply styles to the navigation bar */
 .navbar {
-    background-color: rgba(174, 174, 174, 0.8); /* Set a transparent background */
+    background-color: rgba(255, 255, 255, 0.8); /* Set a transparent background */
     border-bottom: 2px solid transparent; /* Add a white border */
     position: fixed; /* Fixed position to stay at the top */
     top: 0;
@@ -14,9 +14,9 @@
   
   /* Style the navigation links */
   .navbar a {
-    color: rgb(255, 255, 255); /* Set link text color to white */
+    color: rgb(0, 0, 0); /* Set link text color to white */
     text-decoration: none; /* Remove underline */
     margin: 0 15px; /* Add spacing between links */
-    
-  }
+    font-size: large;
+}
   

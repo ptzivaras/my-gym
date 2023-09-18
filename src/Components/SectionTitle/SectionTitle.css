@@ -1,0 +1,19 @@
+.custom03-Section {
+    padding: 20px; 
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 305px;
+  }
+  
+  .custom03-title {
+    font-size: 26px; /* Adjust the title font size as needed */
+    color: #a71616; /* Text color for the title */
+    margin-top: 0; /* Remove default margin from the top */
+  }
+  
+  .custom03-paragraph {
+    font-size: 17px; /* Adjust the paragraph font size as needed */
+    color: #666; /* Text color for the paragraph */  
+    text-align: left;
+  }
+  

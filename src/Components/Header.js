@@ -5,13 +5,13 @@ import './Header.css'; // Import your CSS file
 
 export default function BgImageWithNavbar() {
   return (
-    <header style={{ paddingLeft: 0, margin: 0, height: '90vh' }}>
+    <header style={{ paddingLeft: 0, margin: 0, height: '110vh' }}>
       <div
         style={{
           backgroundImage: `url(${myImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '90vh',
+          height: '110vh',
           width: '100%'
         }}
       >

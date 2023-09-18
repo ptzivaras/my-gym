@@ -1,6 +1,7 @@
 .horizontal-section {
     display: flex;
-    margin-top: 40px; 
+    margin-top: 170px; 
+    margin-bottom: 170px;
     background-color: #433f3f;
     padding: 45px;
   }
