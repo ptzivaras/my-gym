@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from './Assets/headerbg.jpg'; 
+import myImage from '../Assets/headerbg.jpg'; 
 import './Header.css'; // Import your CSS file
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Membership from './Pages/Membership';
+import Membership from '../../Components/MemberShip/Membership';
 
 function PricePage() {
   return (
