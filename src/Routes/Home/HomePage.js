@@ -1,6 +1,5 @@
 import React from 'react';
 
-// import Home from './Pages/Home';
 import Header from '../../Components/Header/Header';
 import AboutMessage from '../../Components/TextMessages/Message01';
 // import Trainers from './Pages/Trainers';
