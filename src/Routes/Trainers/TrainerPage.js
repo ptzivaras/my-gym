@@ -1,5 +1,5 @@
 import React from 'react';
-import CardGrid from '../../Share/CardGrid/CardGrid';
+import CardGrid from '../../Components/CardGrid/CardGrid';
 
 const trainerCardData = [
   {

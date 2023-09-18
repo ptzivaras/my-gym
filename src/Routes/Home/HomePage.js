@@ -1,17 +1,17 @@
 import React from 'react';
 
 // import Home from './Pages/Home';
-import Header from './Header';
-import AboutMessage from './Share/TextMessages/Message01';
+import Header from '../../Components/Header/Header';
+import AboutMessage from '../../Components/TextMessages/Message01';
 // import Trainers from './Pages/Trainers';
-import CardRow from './TextInfo/gymInfo';
-import TrainerMessage from './TrainersMessage/TrainerMessage';
-import TrainerMessage2 from './TrainersMessage/TrainerMessage2';
+import CardRow from '../../Components/TextInfo/gymInfo';
+import TrainerMessage from '../../Components/TrainersMessage/TrainerMessage';
+import TrainerMessage2 from '../../Components/TrainersMessage/TrainerMessage2';
 
-import Testimonials from  './Testimonials/Testimonials';
-import TextImageSplitter from './TextImageSplitter/TextImageSplitter';
-import ClassMessage from './ClassMessage/ClassMessage';
-import SectionTitle from './SectionTitle/SectionTitle';
+import Testimonials from  '../../Components/Testimonials/Testimonials';
+import TextImageSplitter from '../../Components/TextImageSplitter/TextImageSplitter';
+import ClassMessage from '../../Components/ClassMessage/ClassMessage';
+import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 
 // Define a functional component
 function HomePage() {

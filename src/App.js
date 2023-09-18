@@ -2,11 +2,11 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import HomePage from './Components/HomePage';
-import AboutPage from './Components/AboutPage';
-import TrainerPage from './Components/Pages/Trainers/TrainerPage';
-import ClassesPage from './Components/ClassesPage';
-import PricePage from './Components/PricePage';
+import HomePage from './Routes/Home/HomePage';
+import AboutPage from './Routes/About/AboutPage';
+import TrainerPage from './Routes/Trainers/TrainerPage';
+import ClassesPage from './Routes/Classes/ClassesPage';
+import PricePage from './Routes/Price/PricePage';
 import Footer from './Components/Footer/Footer';
 import './Components/Footer/Footer.css';
 

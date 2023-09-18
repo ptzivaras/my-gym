@@ -1,5 +1,5 @@
 import React from 'react';
-import MapComponent from './Pages/MapComponent';
+// import MapComponent from '../../Components/WorldMap/MapComponent';
 
 function AboutPage() {
   return (
