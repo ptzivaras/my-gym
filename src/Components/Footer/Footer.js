@@ -1,20 +1,43 @@
-import React from "react";
-// import './Footer.css';
+import React from 'react';
+import './Footer.css';
 
-const Footer = () => {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faLinkedinIn,
+} from '@fortawesome/free-brands-svg-icons';
+
+
+
+export default function Footer() {
   return (
-    <footer className="footer">
-      <div className="social-links">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-facebook-square"></i>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-instagram"></i>
-        </a>
+    <div className="custom-footer">
+      <div className="custom-container">
+        <div className="custom-newsletter">
+          <p className="custom-signup-text">Sign up for our newsletter</p>
+          <input type="text" className="custom-email" placeholder="Enter your email address" />
+          <button className="custom-subscribe">Subscribe</button>
+        </div>
+        <div className="custom-icons">
+          <a href="#" className="social-button">
+            <FontAwesomeIcon icon={faFacebookF} />
+          </a>
+          <a href="#" className="social-button">
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
+          <a href="#" className="social-button">
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a href="#" className="social-button">
+            <FontAwesomeIcon icon={faLinkedinIn} />
+          </a>
+        </div>
       </div>
-      <p>&copy; {new Date().getFullYear()} Top Gym Fitness Club</p>
-    </footer>
+      <div className="custom-copyright">
+        &copy; {new Date().getFullYear()} Copyright: Top Fitness Gym
+      </div>
+    </div>
   );
-};
-
-export default Footer;
+}

@@ -1,31 +1,82 @@
-/* Set a minimum height for the content area to push the footer to the bottom */
-body {
-  min-height: 100vh;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
+/* Footer.css */
 
-/* Define your footer styles */
-.footer {
+.custom-footer {
   background-color: #333;
-  color: #fff;
+  color: white;
+  padding-top: 40px;
   text-align: center;
-  padding: 1rem;
-  flex-shrink: 0; /* Prevent the footer from shrinking */
 }
 
-.social-links {
-  margin-top: 10px;
+.custom-container {
+  display: flex;
+  flex-direction: column; /* Change to column to stack content */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
 }
 
-.social-links a {
-  color: #fff;
-  margin: 0 10px;
+.custom-newsletter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.custom-signup-text {
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.custom-email {
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid white; /* Add a white border */
+  border-radius: 5px;
+}
+
+.custom-subscribe {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+.custom-subscribe:hover {
+  background-color: #0056b3;
+}
+
+/* Style the social media buttons */
+.custom-icons {
+  display: flex;
+  flex-direction: row; /* Display icons in a row */
+  justify-content: center; /* Center the icons horizontally */
+  margin-top: 20px;
+}
+
+.social-button {
+  margin: 0 10px; /* Add horizontal margin to separate the icons */
   font-size: 24px;
+  color: #555;
   text-decoration: none;
 }
 
-.social-links a:hover {
+.social-button:hover {
   color: #007bff;
+}
+
+.custom-copyright {
+  background-color: rgb(33, 31, 31);
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
 }

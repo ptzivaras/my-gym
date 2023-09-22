@@ -30,8 +30,8 @@
   
   /* Style the testimonial image (resize to a circle) */
   .testimonial-image img {
-    width: 130px; /* Adjust the width of the circular image */
-    height: 130px; /* Adjust the height of the circular image */
+    width: 180px; /* Adjust the width of the circular image */
+    height: 180px; /* Adjust the height of the circular image */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Maintain aspect ratio while filling the circle */
     margin-bottom: 10px; /* Space between image and content */
@@ -39,12 +39,12 @@
   
   /* Style the testimonial content (name and text) */
   .testimonial-content h3 {
-    font-size: 16px; /* Adjust font size for the name */
+    font-size: 22px; /* Adjust font size for the name */
     margin: 5px 0; /* Adjust spacing */
   }
   
   .testimonial-content p {
-    font-size: 14px; /* Adjust font size for the testimonial text */
+    font-size: 20px; /* Adjust font size for the testimonial text */
     color: #555; /* Text color */
   }
   
