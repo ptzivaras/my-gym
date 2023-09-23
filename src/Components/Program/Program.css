@@ -1,14 +1,13 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Three columns of equal width */
-  grid-gap: 20px; /* Gap between grid items */
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /* Style for grid items */
 .grid-item {
-
-  padding: 20px;
   text-align: center;
 }
 
@@ -18,20 +17,32 @@
   display: flex;
   flex-direction: column;
   width: 25rem;
+  height: 25rem; /* Set a fixed height for all cards */
   border-radius: 1rem;
   box-shadow: 0px 10px 8px #999;
   margin: 0.5rem;
-  background-color: white;
-  height: fit-content;
+  overflow: hidden; /* Hide overflow content */
+  position: relative; /* Added for relative positioning */
 }
 
 .card-title {
-  margin: 0.5rem 5%;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Transparent background */
+  color: white;
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 0 0 1rem 1rem; /* Rounded bottom corners */
+  position: absolute; /* Position relative to the card */
+  bottom: 0; /* Place at the bottom of the card */
+  left: 0; /* Place at the left of the card */
+  width: 100%; /* Full width of the card */
+  font-size: 26px; /* Adjust font size as needed */
 }
 
 .card-img {
-    width: 100%;
-    border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  height: 100%; /* Ensure the image takes up the full card height */
+  object-fit: cover; /* Maintain aspect ratio and cover the card */
+  border-radius: 1rem 1rem 0 0;
 }
 
 .card-btn {

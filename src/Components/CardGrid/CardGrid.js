@@ -15,9 +15,7 @@ const CardGrid= ({ title, description, cardData }) => {
             <img className="card-img" src={card.image} alt={`Image for ${card.title}`} />
 
             <h5 className="card-title">{card.title}</h5>
-            <a href={card.link} className=".card-btn">
-              Learn More
-            </a>
+            
           </div>
         ))}
       </div>

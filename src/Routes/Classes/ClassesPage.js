@@ -58,6 +58,7 @@ function ClassesPage() {
 
       {/* <DescriptionList/> */}
 
+      
       <GymSchedule/>
     </div>
   );

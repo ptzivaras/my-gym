@@ -1,6 +1,6 @@
 .membership-container {
     text-align: center;
-    padding: 2rem;
+    padding: 80px;
     
   }
   
@@ -11,13 +11,14 @@
   }
   
   .membership-option {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     padding: 1.5rem;
     margin: 1rem;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    background-color: lightgray;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
   }
   
   .membership-option h3 {

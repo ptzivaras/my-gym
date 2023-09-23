@@ -57,16 +57,7 @@ function HomePage() {
       />
       <Testimonials/> 
 
-
-      {/* TODO: make a text look good click somewhere and go to classes*/}
-
-
-      {/* TODO: Testimonials */}
-
-
       {/* TODO: Image Gallery of Gym */}
-
-      {/*Newsletter Signup*/}
 
       {/* ΒΜΙ calculator  */}
 
