@@ -9,9 +9,9 @@ function AboutPage() {
 
      
 
-      <h2 className="header-title">Visit Our Gym</h2>
-      <h3 className="header-subtitle">We don't give promises. We give results.</h3>
-
+      <h2 className="header-title">We are here for help you! To Shape Your Body.</h2>
+      <p className="header-subtitle">At Top Fitness Club, we are dedicated to helping you achieve the body of your dreams. Our expert trainers and nutritionists will work with you to create a personalized fitness and nutrition plan that helps you reach your specific goals.</p>
+      
       {/* <MapComponent /> */}
 
     </div>
