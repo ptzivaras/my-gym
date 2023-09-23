@@ -1,5 +1,7 @@
 import React from 'react';
 import CardGrid from '../../Components/CardGrid/CardGrid';
+import ImageWithTitle from '../../Components/ImageWithTitle/ImageWithTitle';
+
 
 const trainerCardData = [
   {
@@ -27,6 +29,8 @@ const trainerCardData = [
 const TrainerPage = () => {
   return (
     <div>
+      <ImageWithTitle imageUrl="https://images.pexels.com/photos/260447/pexels-photo-260447.jpeg?auto=compress&cs=tinysrgb&w=1600" title="Available Trainers" />
+
       <CardGrid
         title="Classes Offered"
         description="Explore our fitness classes and schedules."

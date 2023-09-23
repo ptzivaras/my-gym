@@ -1,6 +1,7 @@
 import React from 'react';
 import GymSchedule from '../../Components/GymSchedule/GymSchedule';
 import CardGrid from '../../Components/Program/Program';
+import ImageWithTitle from '../../Components/ImageWithTitle/ImageWithTitle';
 
 const programData = [
   {
@@ -49,6 +50,7 @@ const programData = [
 function ClassesPage() {
   return (
     <div>
+      <ImageWithTitle imageUrl="https://images.pexels.com/photos/260447/pexels-photo-260447.jpeg?auto=compress&cs=tinysrgb&w=1600" title="Available Classes" />
 
       <CardGrid
         title="Classes Offered"
