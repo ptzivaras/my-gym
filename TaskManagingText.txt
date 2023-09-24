@@ -1,0 +1,17 @@
+ Task Manager
+
+-1. Map Component (Leaflet not working)
+
+-2. MemberShip UI (make it look better)
+
+-3. Hover Over Cards and display description: (giati exw  2 card grids enw 1 prepei)
+
+-4. Schedule make it 2 color on rows enalax
+
+-5. na patiount ta koybia na se pane
+
+-6. Icons in Headers make the m biger(only inline works)
+
+-7. Testimonials UI Improve (Improve UI)
+
+
