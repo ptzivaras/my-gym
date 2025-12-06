@@ -1,53 +1,163 @@
-# Getting Started with Create React App
+# My Gym - React Fitness Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern gym website built with React to help fitness centers have an online presence. I built this to solve the problem of gyms not having good websites - most either don't have one or use terrible generic apps.
+
+## The Problem
+
+I noticed that most gyms struggle with their online presence:
+- They either have no website at all, or pay for expensive generic solutions
+- Potential members can't easily check class schedules or pricing before visiting
+- Every gym app I've seen is overcomplicated and poorly designed
+- No way to see trainers or programs without calling or visiting in person
+
+## My Solution
+
+I built a clean, responsive website where potential gym members can:
+- Browse class schedules and see what's available each day
+- Check out trainers and their specializations
+- View membership pricing for different programs and durations
+- Learn about different fitness programs (Muay Thai, CrossFit, TRX, etc.)
+- Get all the information they need before deciding to visit
+
+The site is built with reusable components, so it's easy to customize for any gym.
+
+## Features
+
+**Pages**
+- Home page with gym overview and highlights
+- About page with location info
+- Trainers page showcasing coaches
+- Classes page with program details
+- Pricing page with membership options
+
+**Interactive Components**
+- Weekly class schedule - shows times, classes, and trainers for each day
+- Trainer cards with photos and descriptions
+- Membership pricing tables with 1, 3, 6, and 12 month options
+- Program showcase (Muay Thai, Kickboxing, MMA, CrossFit, TRX, Personal Training)
+- Testimonials section
+- Maps integration for location
+
+**Design**
+- Responsive layout that works on mobile and desktop
+- Clean component-based structure
+- Custom CSS styling throughout
+
+## Tech Stack
+
+**Core**
+- React 18.2.0 with functional components
+- React Router DOM v6 for multi-page navigation
+- React Hooks (useState for schedule selection, useEffect for maps)
+
+**UI & Styling**
+- Custom CSS for all components
+- Material-UI Icons only (only icons)
+- Bootstrap 5 for grid layout
+- FontAwesome icons
+- React Icons
+
+**Other Libraries**
+- Google Maps API & Leaflet for location maps
+- React Multi Carousel for testimonials
+- React YouTube for embedding videos
+
+## What I Learned
+
+- Building multi-page React apps with React Router
+- State management with useState hook
+- Component composition and reusability
+- Responsive design with CSS
+- Integrating third-party libraries (maps, carousels)
+- Project organization and folder structure
+
+## Project Structure
+
+```
+my-gym/
+├── src/
+│   ├── Components/         # Reusable components
+│   │   ├── NavBar/        # Navigation bar
+│   │   ├── Header/        # Hero section
+│   │   ├── Footer/        # Footer
+│   │   ├── GymSchedule/   # Weekly class schedule
+│   │   ├── Membership/    # Pricing tables
+│   │   ├── CardGrid/      # Grid layout for cards
+│   │   ├── Testimonials/  # Customer reviews
+│   │   └── ...            # Other components
+│   ├── Routes/            # Page components
+│   │   ├── Home/         
+│   │   ├── About/        
+│   │   ├── Classes/      
+│   │   ├── Trainers/     
+│   │   └── Price/        
+│   ├── App.js            # Main app with routing
+│   └── index.js          # Entry point
+└── package.json
+```
+
+## Setup
+
+1. Clone the repo
+   ```bash
+   git clone https://github.com/ptzivaras/my-gym.git
+   cd my-gym
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start development server
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000)
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Run development server
+- `npm build` - Create production build
+- `npm test` - Run tests
 
-### `npm start`
+## TODO - Future Improvements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### High Priority
+- [ ] **Make site fully customizable** - Add config file for gym name, colors, images
+- [ ] **Admin panel** - Let gym owners update schedule, prices, trainers without code changes
+- [ ] **Working BMI calculator** - Currently just has the component shell
+- [ ] **Backend integration** - Connect to actual database for dynamic content
+- [ ] **Contact form** - Add working contact/inquiry form with email integration
+- [ ] **Member login system** - Authentication for existing members
+- [ ] **Online booking** - Book classes or trainer sessions
+- [ ] **Payment integration** - Stripe/PayPal for membership purchase
+- [ ] **Gallery** - Photo gallery of gym facilities
+- [ ] **Blog section** - Fitness tips and gym news
+- [ ] **Mobile app version** - React Native conversion
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###  Nice to Have
+- [ ] **Dark mode** - Theme toggle
+- [ ] **Multi-language support** -  Greek/English
+- [ ] **Social media integration** - Live Instagram feed
+- [ ] **Progress tracking** - Member workout/progress dashboard
+- [ ] **Class reviews** - Let members rate and review classes
+- [ ] **Nutrition plans** - Add nutrition program section
+- [ ] **Live chat** - Customer support chat widget.. AI ChatBot
 
-### `npm test`
+###  Improvements
+- [ ] **TypeScript migration** - Add type safety
+- [ ] **Testing** - Unit and integration tests
+- [ ] **Performance optimization** - Code splitting, lazy loading
+- [ ] **SEO optimization** - Meta tags, sitemap, schema markup
+- [ ] **Accessibility improvements** - ARIA labels, keyboard navigation
+- [ ] **State management** - Consider Context API or Redux if app grows
+- [ ] **Form validation** - Add proper validation library
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Built with Create React App
 
 ### Analyzing the Bundle Size
 
