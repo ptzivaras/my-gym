@@ -11,6 +11,7 @@ import Testimonials from  '../../Components/Testimonials/Testimonials';
 import TextImageSplitter from '../../Components/TextImageSplitter/TextImageSplitter';
 import ClassMessage from '../../Components/ClassMessage/ClassMessage';
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
+import Gallery from '../../Components/Gallery/Gallery';
 
 // Define a functional component
 function HomePage() {
@@ -57,7 +58,7 @@ function HomePage() {
       />
       <Testimonials/> 
 
-      {/* TODO: Image Gallery of Gym */}
+      <Gallery />
 
       {/* ΒΜΙ calculator  */}
 
