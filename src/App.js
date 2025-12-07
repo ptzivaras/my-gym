@@ -10,6 +10,7 @@ import PricePage from './Routes/Price/PricePage';
 import ContactPage from './Routes/Contact/ContactPage';
 import Footer from './Components/Footer/Footer';
 import DarkModeToggle from './Components/DarkModeToggle/DarkModeToggle';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 import './Components/Footer/Footer.css';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <div>
       <Footer/>
       </div>
+      <ScrollToTop />
       <DarkModeToggle />
     </div>
   );
