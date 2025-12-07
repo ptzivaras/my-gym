@@ -2,11 +2,15 @@
 
 /* Style the overall carousel container */
 .custom-carousel-container {
-    margin-left: 60px;
-    margin-right: 60px;
-
-    margin-bottom: 50px;
-    /* Your container styles */
+    margin: 0 auto 50px;
+    padding: 0 60px;
+    max-width: 1400px;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-carousel-container {
+      padding: 0 20px;
+    }
   }
   
   /* Style each carousel item (testimonial card) */
@@ -18,14 +22,28 @@
   
   /* Style the testimonial card */
   .testimonial-card {
-    margin-left: 30px;
+    margin: 0 15px;
     padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
-    background-color: #f0f0f0; /* Background color of the card */
-    border-radius: 10px; /* Rounded corners for the card */
+    text-align: center;
+    background-color: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  }
+  
+  @media (max-width: 768px) {
+    .testimonial-card {
+      padding: 30px 20px;
+      margin: 0 10px;
+    }
   }
   
   /* Style the testimonial image (resize to a circle) */

@@ -1,5 +1,6 @@
 import React from "react";
- import './Message01.css';
+import { Link } from 'react-router-dom';
+import './Message01.css';
 
 const AboutMessage = () => {
   return (
@@ -15,9 +16,9 @@ const AboutMessage = () => {
           Our purpose is to redefine the concept of the gym. In addition to the ideal selection of programs and advanced equipment, we have paid special attention to the design and functionality of the gyms, the relaxation areas as well as the integration of new technologies in the infrastructure as well as in the training process.
         </p>
         <div style={{ textAlign:'left' }}>
-          <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
+          <Link to='/about' className='btn btn-outline-light btn-lg' role='button'>
                 Learn More
-          </a>        
+          </Link>        
         </div>
       </div>
     </div>

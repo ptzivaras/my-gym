@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./ClassMessage.css";
 import DoneOutlineIcon from '@mui/icons-material/DoneOutline';
 import DoneAllIcon from '@mui/icons-material/DoneAll';
@@ -32,7 +33,9 @@ const ClassMessage = () => {
           </div>
         </div>
       </div>
-      <button className="custom-button">Check Our Classes -{'>'} </button>
+      <Link to='/classes'>
+        <button className="custom-button">Check Our Classes -{'>'}  </button>
+      </Link>
     </div>
   );
 };

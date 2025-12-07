@@ -1,0 +1,48 @@
+.price-page {
+  min-height: 100vh;
+}
+
+.price-intro {
+  max-width: 900px;
+  margin: 80px auto 40px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.price-intro h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.price-intro p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .price-intro {
+    margin: 60px auto 30px;
+  }
+  
+  .price-intro h2 {
+    font-size: 28px;
+  }
+  
+  .price-intro p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .price-intro {
+    margin: 40px auto 20px;
+    padding: 0 15px;
+  }
+  
+  .price-intro h2 {
+    font-size: 24px;
+  }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./TrainerMessage2.css"; 
 
 const TrainerMessage2 = () => {
@@ -14,7 +15,9 @@ const TrainerMessage2 = () => {
           With years of experience and expertise in various disciplines, our trainers are committed to providing
           personalized guidance and support on your fitness journey. Achieve your goals!!
         </p>
-        <button className="custom-button">Meet Our Trainers -{'>'}</button>
+        <Link to='/trainers'>
+          <button className="custom-button">Meet Our Trainers -{'>'}</button>
+        </Link>
     </div>
   );
 };

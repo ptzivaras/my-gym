@@ -1,19 +1,40 @@
 .custom03-Section {
-    padding: 20px; 
+    padding: 20px 40px;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 305px;
+    margin: 100px auto 40px;
+    max-width: 900px;
+  }
+  
+  @media (max-width: 768px) {
+    .custom03-Section {
+      padding: 20px;
+      margin: 60px auto 30px;
+    }
   }
   
   .custom03-title {
-    font-size: 26px; /* Adjust the title font size as needed */
-    color: #a71616; /* Text color for the title */
-    margin-top: 0; /* Remove default margin from the top */
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0 0 20px 0;
   }
   
   .custom03-paragraph {
-    font-size: 17px; /* Adjust the paragraph font size as needed */
-    color: #666; /* Text color for the paragraph */  
-    text-align: left;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6b7280;
+    text-align: center;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .custom03-title {
+      font-size: 28px;
+    }
+    
+    .custom03-paragraph {
+      font-size: 16px;
+      line-height: 1.6;
+    }
   }
   

@@ -25,7 +25,7 @@ const Testimonials = () => {
   const items = [
     {
       id: 1,
-      imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-E-hfzTCJEa3w6fEZbRdD5wFNKsEsGN-iZA&usqp=CAU",
+      imageSrc: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600",
       name: "Jenna Cenaz",
       text: "A testimonial is an honest endorsement of your product or service that usually comes from a customer, colleague, or peer who has benefited from or experienced success as a result of the work you did for them."
     },

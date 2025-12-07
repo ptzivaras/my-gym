@@ -9,8 +9,16 @@
   background-size: cover;
   background-position: center;
   height: 90vh;
+  min-height: 500px;
   width: 100%;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .p-5.text-center.bg-image {
+    height: 70vh;
+    min-height: 400px;
+  }
 }
 
 /* Add custom styles to your text and button */
@@ -62,6 +70,27 @@ h4 {
   font-weight: 300;
 }
 
+/* Responsive typography */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+}
+
 /* Header CSS */
 .header-mask {
   background-color: rgba(0, 0, 0, 0.6);
@@ -85,11 +114,24 @@ h4 {
 .header-wrapper {
   background: rgba(0, 0, 0, 0.50);
   padding: 75px 50px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .header-wrapper {
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-wrapper {
+    padding: 30px 20px;
+  }
 }
 
 .header-wrapper .header-title {
