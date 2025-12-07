@@ -12,6 +12,8 @@ import TextImageSplitter from '../../Components/TextImageSplitter/TextImageSplit
 import ClassMessage from '../../Components/ClassMessage/ClassMessage';
 import SectionTitle from '../../Components/SectionTitle/SectionTitle';
 import Gallery from '../../Components/Gallery/Gallery';
+import FAQ from '../../Components/FAQ/FAQ';
+import SuccessStories from '../../Components/SuccessStories/SuccessStories';
 
 // Define a functional component
 function HomePage() {
@@ -59,6 +61,10 @@ function HomePage() {
       <Testimonials/> 
 
       <Gallery />
+
+      <SuccessStories />
+
+      <FAQ />
 
       {/* ΒΜΙ calculator  */}
 
