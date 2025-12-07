@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageWithTitle from '../../Components/ImageWithTitle/ImageWithTitle';
 import LocationContact from '../../Components/LocationContact/LocationContact';
+import CalculateBMI from '../../Components/CalculateBMI/CalculateBMI';
 import './AboutPage.css';
 
 function AboutPage() {
@@ -24,6 +25,8 @@ function AboutPage() {
           of the way.
         </p>
       </div>
+      
+      <CalculateBMI />
       
       <LocationContact />
     </div>
