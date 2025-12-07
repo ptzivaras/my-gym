@@ -9,6 +9,7 @@ import ClassesPage from './Routes/Classes/ClassesPage';
 import PricePage from './Routes/Price/PricePage';
 import ContactPage from './Routes/Contact/ContactPage';
 import Footer from './Components/Footer/Footer';
+import DarkModeToggle from './Components/DarkModeToggle/DarkModeToggle';
 import './Components/Footer/Footer.css';
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
       <div>
       <Footer/>
       </div>
-      
+      <DarkModeToggle />
     </div>
   );
 }
