@@ -2,10 +2,12 @@
     width: 60%;
     padding: 20px;
     margin: 25px auto;
-    /* border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     text-align: center;
-    
+  }
+  
+  .custom-program-card a {
+    text-decoration: none;
+    color: inherit;
   }
   
   .custom-title {
@@ -65,18 +67,21 @@
   }
   
   .custom-button {
-    display: flex;
-    justify-content: flex-start;
-    padding:  13px;
-    background-color: #5b5e65;
+    display: inline-block;
+    padding: 13px 28px;
+    background-color: #2563eb;
     color: white;
     border: none;
+    border-radius: 8px;
     font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
   }
   
   .custom-button:hover {
-    background-color: #a9aebb;
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
   }
   
