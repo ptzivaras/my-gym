@@ -34,7 +34,7 @@ const ClassMessage = () => {
         </div>
       </div>
       <Link to='/classes'>
-        <button className="custom-button">Check Our Classes -{'>'}  </button>
+        <button className="custom-button">Check Our Classes</button>
       </Link>
     </div>
   );

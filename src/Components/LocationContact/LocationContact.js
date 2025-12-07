@@ -23,8 +23,8 @@ const LocationContact = () => {
           
           <div className="info-section">
             <h3>Contact</h3>
-            <p>Tel: +210 6894200</p>
-            <p>Tel: +210 6850098</p>
+            <p>Tel: +30 210 123 4567</p>
+            <p>Tel: +30 210 987 6543</p>
             <p>Email: info@topfitness.gr</p>
           </div>
         </div>

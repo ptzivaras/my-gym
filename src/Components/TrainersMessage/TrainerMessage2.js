@@ -16,7 +16,7 @@ const TrainerMessage2 = () => {
           personalized guidance and support on your fitness journey. Achieve your goals!!
         </p>
         <Link to='/trainers'>
-          <button className="custom-button">Meet Our Trainers -{'>'}</button>
+          <button className="custom-button">Meet Our Trainers</button>
         </Link>
     </div>
   );
