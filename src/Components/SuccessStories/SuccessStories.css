@@ -222,16 +222,27 @@ body.dark-mode .story-quote {
 /* Responsive */
 @media (max-width: 768px) {
   .success-stories-container {
-    margin: 60px auto;
+    margin: 50px auto;
+    padding: 0 15px;
+  }
+
+  .success-header {
+    margin-bottom: 40px;
   }
 
   .success-header h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
+  }
+
+  .success-header p {
+    font-size: 1rem;
+    padding: 0 10px;
   }
 
   .stories-grid {
     grid-template-columns: 1fr;
     gap: 30px;
+    margin-bottom: 50px;
   }
 
   .story-images {
@@ -239,21 +250,32 @@ body.dark-mode .story-quote {
     gap: 10px;
   }
 
+  .image-wrapper {
+    aspect-ratio: 2/3;
+  }
+
   .vs-divider {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
   }
 
   .vs-divider span {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .story-content {
     padding: 25px 20px;
   }
 
+  .story-content h3 {
+    font-size: 1.3rem;
+  }
+
   .achievement-badge {
     padding: 10px 16px;
+  }
+
+  .badge-text {
     font-size: 0.85rem;
   }
 
@@ -261,12 +283,21 @@ body.dark-mode .story-quote {
     font-size: 1.3rem;
   }
 
+  .story-quote {
+    font-size: 0.95rem;
+    padding-left: 15px;
+  }
+
   .cta-section {
-    padding: 40px 25px;
+    padding: 40px 20px;
   }
 
   .cta-section h3 {
     font-size: 1.6rem;
+  }
+
+  .cta-section p {
+    font-size: 1rem;
   }
 
   .cta-button {
@@ -276,20 +307,54 @@ body.dark-mode .story-quote {
 }
 
 @media (max-width: 480px) {
+  .success-stories-container {
+    margin: 40px auto;
+    padding: 0 10px;
+  }
+
   .success-header h2 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
+  }
+
+  .success-header p {
+    font-size: 0.95rem;
   }
 
   .story-images {
     flex-direction: column;
     gap: 15px;
+    padding: 15px;
   }
 
   .image-wrapper {
     width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   .vs-divider {
     transform: rotate(90deg);
+    margin: 5px auto;
+  }
+
+  .story-content {
+    padding: 20px 15px;
+  }
+
+  .story-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .cta-section {
+    padding: 35px 15px;
+  }
+
+  .cta-section h3 {
+    font-size: 1.4rem;
+  }
+
+  .cta-button {
+    padding: 12px 25px;
+    font-size: 0.95rem;
   }
 }

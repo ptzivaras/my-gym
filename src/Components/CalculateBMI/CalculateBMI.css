@@ -219,6 +219,7 @@
 @media (max-width: 768px) {
   .bmi-calculator {
     padding: 40px 15px;
+    min-height: auto;
   }
 
   .bmi-container {
@@ -226,7 +227,35 @@
   }
 
   .bmi-title {
-    font-size: 2rem;
+    font-size: 1.9rem;
+  }
+
+  .bmi-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .input-group label {
+    font-size: 0.95rem;
+  }
+
+  .input-group input {
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .calculate-btn,
+  .reset-btn {
+    padding: 13px;
+    font-size: 0.95rem;
+  }
+
+  .bmi-result {
+    padding: 25px;
   }
 
   .bmi-value {
@@ -237,22 +266,54 @@
     font-size: 1.2rem;
   }
 
-  .button-group {
-    flex-direction: column;
+  .bmi-message {
+    font-size: 0.95rem;
   }
 
   .bmi-scale {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
+
+  .scale-color {
+    height: 35px;
+  }
+
+  .scale-item span {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 480px) {
+  .bmi-calculator {
+    padding: 30px 10px;
+  }
+
+  .bmi-container {
+    padding: 25px 15px;
+  }
+
   .bmi-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+  }
+
+  .bmi-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .bmi-result {
+    padding: 20px;
   }
 
   .bmi-value {
     font-size: 2.5rem;
+  }
+
+  .bmi-category {
+    font-size: 1.1rem;
+  }
+
+  .scale-color {
+    height: 30px;
   }
 }

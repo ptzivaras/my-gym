@@ -10,25 +10,31 @@ body {
 
 /* Dark Mode Styles */
 body.dark-mode {
-  background-color: #1a1a2e;
-  color: #eaeaea;
+  background-color: #0f172a;
+  color: #e2e8f0;
 }
 
 body.dark-mode .navbar {
-  background-color: #16213e;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(30, 41, 59, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 body.dark-mode .navbar a {
-  color: #eaeaea;
+  color: #e2e8f0;
 }
 
 body.dark-mode .navbar a:hover {
-  color: #667eea;
+  color: #818cf8;
+}
+
+body.dark-mode .navbar a.active {
+  color: #818cf8;
+  border-bottom-color: #818cf8;
 }
 
 body.dark-mode .footer {
-  background-color: #0f1419;
+  background-color: #020617;
 }
 
 body.dark-mode .gallery-header h2,
@@ -37,67 +43,68 @@ body.dark-mode .contact-form-header h2,
 body.dark-mode h1,
 body.dark-mode h2,
 body.dark-mode h3 {
-  color: #eaeaea;
+  color: #f1f5f9;
 }
 
 body.dark-mode .gallery-header p,
 body.dark-mode .bmi-subtitle,
 body.dark-mode .contact-form-header p,
 body.dark-mode p {
-  color: #b8b8b8;
+  color: #cbd5e1;
 }
 
 body.dark-mode .contact-form,
 body.dark-mode .bmi-container,
 body.dark-mode .info-card {
-  background-color: #16213e;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  background-color: #1e293b;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 body.dark-mode .form-group input,
 body.dark-mode .form-group textarea {
-  background-color: #1a1a2e;
-  border-color: #2d3748;
-  color: #eaeaea;
+  background-color: #0f172a;
+  border-color: #334155;
+  color: #e2e8f0;
 }
 
 body.dark-mode .form-group input:focus,
 body.dark-mode .form-group textarea:focus {
-  border-color: #667eea;
+  border-color: #818cf8;
+  background-color: #1e293b;
 }
 
 body.dark-mode .form-group label {
-  color: #eaeaea;
+  color: #f1f5f9;
 }
 
 body.dark-mode .info-card h3 {
-  color: #eaeaea;
+  color: #f1f5f9;
 }
 
 body.dark-mode .info-card p {
-  color: #b8b8b8;
+  color: #cbd5e1;
 }
 
 body.dark-mode .about-content h2,
 body.dark-mode .about-content p {
-  color: #eaeaea;
+  color: #e2e8f0;
 }
 
 body.dark-mode .contact-info h2,
 body.dark-mode .contact-info h3 {
-  color: #eaeaea;
+  color: #f1f5f9;
 }
 
 body.dark-mode .contact-info p {
-  color: #b8b8b8;
+  color: #cbd5e1;
 }
 
 body.dark-mode .bmi-calculator {
-  background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
 }
 
 body.dark-mode .contact-form-section {
-  background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
 }
 
 code {
